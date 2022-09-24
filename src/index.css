@@ -260,7 +260,7 @@ h1.Name1 {
 }
 @media screen and (max-width:576px){
     h1.Name {
-        font-size: 33px;
+        font-size: 24px;
         font-family: Dosis,sans-serif;
     }
     .background-image {
@@ -303,7 +303,7 @@ h1.Name1 {
         display: block;
     }   
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:320px){
     .space {
         width: 100%;
         margin-top: 30px;
@@ -330,10 +330,14 @@ h1.Name1 {
         margin-left: 30%;
     }
     .contect-content {
-        margin: 10px;
-        height: 208px;
-        width: 70vh;
+    margin: 10px;
+    height: 208px;
+    width: 58vh;
     }
+    .about-inner {
+        display: grid;
+    }
+
     .name-details h1 {
         font-family: 'Dosis', sans-serif;
         font-size: 31px;
@@ -344,5 +348,20 @@ h1.Name1 {
     }
     .about-content {
         padding: 0px;
+    }
+    .border h4 {
+        transform: translate(22px);
+        font-size: 8px;
+    }
+    h1.Name {
+        font-size: 24px;
+        font-family: Dosis,sans-serif;
+    }
+    .but-border {
+        z-index: 1;
+        transform: translate(21vh,37vh);
+    }
+    .but-border a {
+        padding: 2px 13px;
     }
 }
