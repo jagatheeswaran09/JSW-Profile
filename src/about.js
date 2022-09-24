@@ -13,7 +13,7 @@ class About extends React.Component{
                             </div>
                             <div className='about-content'>
                                     <h1>ABOUT ME</h1>
-                                    <h4>SOFTWARE - DEVELOPER</h4>
+                                    <h4>FRONT END - DEVELOPER</h4>
                                     <p>HI..., I'am Jagatheeswaran, Completed <br/>Bechelor Of Computer Science(B.sc(cs)) .<br/>I Have Recently Completed for Java Course in <br/>Besant Technologies...!!</p>
                             </div>
                     </div>
