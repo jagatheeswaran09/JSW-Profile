@@ -259,6 +259,10 @@ h1.Name1 {
 }
 }
 @media screen and (max-width:576px){
+    h1.Name {
+        font-size: 33px;
+        font-family: Dosis,sans-serif;
+    }
     .background-image {
         height: 54vh;
     }
@@ -274,7 +278,7 @@ h1.Name1 {
     }
     .but-border {
         z-index: 1;
-        transform: translate(40vh, 45vh);
+        transform: translate(30vh,46vh);
     }
     .but-border a {
         padding: 11px 35px;
@@ -299,7 +303,7 @@ h1.Name1 {
         display: block;
     }   
 }
-@media screen and (max-width:720px){
+@media screen and (max-width:480px){
     .space {
         width: 100%;
         margin-top: 30px;
@@ -323,14 +327,22 @@ h1.Name1 {
     }
     .contect-inner {
         display: grid;
+        margin-left: 30%;
     }
     .contect-content {
         margin: 10px;
         height: 208px;
-        width: 88vh;
+        width: 70vh;
     }
     .name-details h1 {
         font-family: 'Dosis', sans-serif;
         font-size: 31px;
+    }
+    .about-content p {
+        font-size: 14px;
+        line-height: 2.2rem;
+    }
+    .about-content {
+        padding: 0px;
     }
 }
