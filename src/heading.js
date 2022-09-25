@@ -13,7 +13,7 @@ class Heading extends React.Component{
             </nav>
         </div><div className='name-deails-overll'>
                 <div className='name-details'>
-                    <h1>HEY HAI</h1>
+                    <h1>HEY HAI,</h1>
                     <h1>I'M JAGA</h1>
                     <h1><span className='soft'>FRONT-END</span>-<span className='dev'>DEVELOPER</span></h1>
                 </div>
