@@ -317,6 +317,7 @@ h1.Name1 {
         width: 79vh;
         height: 205px;
         margin-top: 10px;
+        overflow: hidden;
     }
     .project-inner {
         display: block;
