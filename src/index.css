@@ -314,20 +314,22 @@ h1.Name1 {
         margin-left: 10px;
     }
     .contect-content{
+        width:300px;
         margin-top: 10px;
     }
     .project-img img {
-        width: 79vh;
+        width: 65vh;
         height: 205px;
         margin-top: 10px;
         overflow: hidden;
     }
     .project-inner {
+        width: 100%;
         display: inline-grid;
         position: relative;
     }   
     .project-content {
-        width: 63vh;
+        width: 80%;
     }
 }
 @media screen and (max-width:320px){
