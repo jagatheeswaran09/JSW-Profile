@@ -253,7 +253,7 @@ h1.Name1 {
 @media screen and (min-width:767px){
 
 }
-@media screen and (max-width:320px){
+@media screen and (min-width:320px){
     .name-deails-overll{
         display: none;
     }
