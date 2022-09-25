@@ -262,6 +262,9 @@ h1.Name1 {
 }
 }
 @media screen and (max-width:576px){
+    .Outer-all {
+        width: 100%;
+    }
     .project-content p {
         margin-left: 30px;
     }
@@ -317,6 +320,7 @@ h1.Name1 {
     }
     .project-inner {
         display: block;
+        position: relative;
     }   
 }
 @media screen and (max-width:320px){
