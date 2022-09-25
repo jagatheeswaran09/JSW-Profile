@@ -253,6 +253,68 @@ h1.Name1 {
 @media screen and (min-width:767px){
 
 }
-@media screen and (min-width:320px){
-
+@media screen and (max-width:320px){
+    .name-deails-overll{
+        display: none;
+    }
+    .project-content p {
+        font-size: 22px;
+    }
+    .about-content p {
+        font-size: 22px;
+    }
+    .contect-outer .para {
+        font-size: 22px;
+    }
+    .about-content h4 {
+        font-size: 26px;
+    }
+    .contect-details {
+        font-size: 17px;
+    }
+    .about-content h1 {
+        font-size: 50px;
+    }
+    .contect-outer h1 {
+        font-size: 50px;
+    }
+    .project-content {
+        width: 100%;
+    }
+    .project-img img {
+        width: 95%;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .project-inner {
+        display: inline-grid;   
+    }
+    .space {
+        width: 200%;
+    }
+    .background-image {
+        width: 200%;
+    }
+    .background-image img {
+        height: 80vh;
+    }
+    .but-border {
+        transform: translate(44vh, 65vh);
+    }
+    .about-inner {
+        width: 100%;
+        display: inline-grid;
+    }
+    .about-img img {
+        width: 326px;
+    }
+    .about-content {
+        padding-left: 0px;
+    }
+    .contect-inner {
+        display: inline-grid;
+    }
+    .contect-content {
+        margin-top: 14px;
+    }
 }
