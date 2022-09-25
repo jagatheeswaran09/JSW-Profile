@@ -293,7 +293,7 @@ h1.Name1 {
         width: 100%
     }
     .space {
-        width: 117%;
+        width: 100%;
     }
     .border {
         transform: translate(-17px, -14px);
@@ -323,7 +323,7 @@ h1.Name1 {
         overflow: hidden;
     }
     .project-inner {
-        display: block;
+        display: inline-grid;
         position: relative;
     }   
 }
