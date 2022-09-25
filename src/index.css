@@ -21,6 +21,9 @@ span {
     font-family: 'Dosis', sans-serif;
     font-size: 48px;
 }
+.about-content h1 {
+    font-size: 45px;
+}
 .Outer-all {
     width: 100%;
     z-index: 1;
@@ -146,7 +149,7 @@ h4 {
     font-size: 45px;
 }
 .about-img img {
-    width: 230px;
+    width: 270px;
     border: 5px solid white;
     border-radius: 40px;
 }
@@ -259,6 +262,22 @@ h1.Name1 {
 }
 }
 @media screen and (max-width:576px){
+    .project-content p {
+        margin-left: 30px;
+    }
+    .project-outer h1 {
+        margin-left: 30px
+    }
+    .about-inner {
+    display: grid;
+}
+.about-content h1 {
+    font-size: 45px;
+}
+.about-content {
+    margin-top: 50px;
+    padding-left: 0px;
+}
     h1.Name {
         font-size: 24px;
         font-family: Dosis,sans-serif;
@@ -267,7 +286,7 @@ h1.Name1 {
         height: 54vh;
     }
     .background-image img {
-        transform: translateY(57px);
+        height: 100%;
         width: 100%;
     }
     .border {
@@ -278,21 +297,18 @@ h1.Name1 {
     }
     .but-border {
         z-index: 1;
-        transform: translate(30vh,46vh);
+        transform: translate(26vh,42vh);
     }
     .but-border a {
         padding: 11px 35px;
     }
-    .contect-inne{
-        display: block;
-    }
-    .contect-container {
-        width: 50%;
-        transform: translateX(35%);
-    }
     .contect-inner {
         margin-top: 25px;
         display: block;
+        margin-left: 28px;
+    }
+    .contect-content{
+        margin-top: 10px;
     }
     .project-img img {
         width: 82vh;
@@ -327,7 +343,6 @@ h1.Name1 {
     }
     .contect-inner {
         display: grid;
-        margin-left: 30%;
     }
     .contect-content {
     margin: 10px;
@@ -337,14 +352,15 @@ h1.Name1 {
     .about-inner {
         display: grid;
     }
-
     .name-details h1 {
-        font-family: 'Dosis', sans-serif;
-        font-size: 31px;
+        display: none;
     }
     .about-content p {
         font-size: 14px;
         line-height: 2.2rem;
+    }
+    .about-content h1 {
+        font-size: 45px;
     }
     .about-content {
         padding: 0px;
