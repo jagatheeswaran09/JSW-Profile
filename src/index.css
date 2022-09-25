@@ -290,7 +290,10 @@ h1.Name1 {
     }
     .background-image img {
         height: 100%;
-        width: 100%;
+        width: 100%
+    }
+    .space {
+        width: 117%;
     }
     .border {
         transform: translate(-17px, -14px);
