@@ -261,7 +261,7 @@ h1.Name1 {
     z-index: 1;
 }
 }
-@media screen and (max-width:576px){
+@media screen and (min-width:576px){
     .Outer-all {
         width: 100%;
     }
@@ -332,7 +332,7 @@ h1.Name1 {
         width: 80%;
     }
 }
-@media screen and (max-width:320px){
+@media screen and (min-width:320px){
     .space {
         width: 100%;
         margin-top: 30px;
