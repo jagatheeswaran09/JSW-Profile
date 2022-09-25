@@ -293,7 +293,7 @@ h1.Name1 {
         width: 100%
     }
     .space {
-        width: 100%;
+        width: 114%;
     }
     .border {
         transform: translate(-17px, -14px);
@@ -311,7 +311,7 @@ h1.Name1 {
     .contect-inner {
         margin-top: 25px;
         display: block;
-        margin-left: 28px;
+        margin-left: 10px;
     }
     .contect-content{
         margin-top: 10px;
@@ -326,6 +326,9 @@ h1.Name1 {
         display: inline-grid;
         position: relative;
     }   
+    .project-content {
+        width: 63vh;
+    }
 }
 @media screen and (max-width:320px){
     .space {
